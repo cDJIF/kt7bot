@@ -5,7 +5,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 import redis
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-API_TOKEN = '7749397562:AAG02kTWgT7WFdCfWqmunICsrJhJyxTH7p4'
+API_TOKEN = ''
 ADMIN_PASSWORD = '123'  
 db = redis.Redis(host='localhost', port=6379, db=0)
 
